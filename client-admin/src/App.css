@@ -1,0 +1,259 @@
+.body-customer{
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+.body-admin{
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+div.inline{
+  display: inline-block;
+}
+figure.caption-right{
+  display: flex;
+  align-items: center;
+}
+.align-center{
+  width: fit-content;
+  margin: 0px auto;
+}
+.aling-valign-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center{
+  text-align: center;
+}
+span.link{
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+/*menu.css*/
+div.border-bottom{
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+}
+div.float-left{
+  float: left;
+  margin-top: 15px;
+
+}
+div.float-right{
+  float: right;
+  margin-top: 15px;
+  
+}
+div.float-clear{
+  clear: both;
+}
+/* ul.menu{
+  margin: 0px;
+  padding: 0px;
+}
+li.menu{
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+#da{
+
+  border: 1px solid black;
+  padding: auto;
+  margin-left: 2px;
+  box-sizing: border-box;
+  box-shadow: #333;
+}
+#ea{
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+form.search{
+  margin: 0px;
+}
+input.keywor{
+  width: 110px;
+}
+/*datatable.css*/
+tr #total{
+  height: 30px;
+}
+.datatable{
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 55em;
+  
+}
+/*header*/
+tr:first-child.datatable{
+  background-color: rgb(42, 171, 104) ;
+  color: white;
+  font-size: medium;
+  
+}
+/*even rows. except header*/
+tr:not(:first-child):nth-child(even).datatable{
+  background-color: white;
+}
+/* odd rows , except header */
+tr:not(:first-child):nth-child(odd).datatable{
+  background-color: #f2ecec;
+}
+/* except header */
+tr:not(:first-child):hover.datatable{
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+/*LOgin*/
+div.login {
+  border-radius: 10px;
+  background-color:#ffeeaa;
+  padding: 40px;
+}
+input[type=text].login, select {
+  width: fit-content;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+}
+input[type=password].login, select {
+  width:fit-content;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+
+}
+input[type=tel].login, select {
+  width: fit-content;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+
+}
+input[type=email].login, select {
+  width: fit-content;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+
+}
+input[type=submit]:hover {
+  background-color: #ccc;
+}
+input[type="submit"].login
+{
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  background: #0f0;
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+input[type="submit"].login:active
+{
+  opacity: 0.6;
+}
+div.signin{
+  width: 400px;
+  background: #222;  
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0,0,0,9);
+}
+div .signin .content 
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+div .signin .content h2 
+{
+  font-size: 2em;
+  color: #0f0;
+  text-transform: uppercase;
+}
+div .signin .content .form 
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+div.centerr{
+  width: auto;
+  margin: 0px auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+
+
